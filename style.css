@@ -34,7 +34,7 @@ h2{
 }
 
 a {
-    font-size: .8em;
+    font-size: 1.2em;
     line-height: 4em;
     height: 4em;
     font-weight: bolder;
@@ -43,23 +43,23 @@ a {
 }
 
 a:link {
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
 }
 
 a:visited {
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
 }
 
 a:hover {
     font-style: normal;
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
 }
 
 a:active {
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
 }
 
