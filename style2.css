@@ -13,21 +13,23 @@
 header {
     width: 100%;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    line-height: 4em;
-    padding-top: 2%;
-    align-content: center;
-    text-align: center;
+    justify-content: space-between;
     border-bottom: 1px solid black;
+    padding-top: 1%;
+    text-align: center;
+    line-height: 3em;
 }
 
-header .header-image {
-    width: 100%;
+header .contact {
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 1%;
 }
 
-header .img {
-    width: 20%;
+header .manifesto {
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 1%;
 }
 
 /**Image Containers**/
@@ -86,12 +88,4 @@ footer .noun {
     width: 12%;
     padding-left: 1%; 
     font-weight: bolder;
-}
-
-footer .contact {
-    text-align: right;
-    width: 15%;
-    padding-right: 1%;
-    text-transform: uppercase;
-    margin-left: 22%;
 }
