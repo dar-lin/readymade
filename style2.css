@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;  
     font-family: "Nanum Myeongjo";
-    font-size: 16px; 
     background-color: white;
 }
 
@@ -20,6 +19,7 @@ header {
     padding-top: 2%;
     align-content: center;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 
 header .header-image {
@@ -29,18 +29,14 @@ header .header-image {
 header .img {
     width: 20%;
 }
-header .statement {
-    position: relative;
-    top: -2em;
-    line-height: 1em;
 
-}
-
+/**Image Containers**/
 .home-art {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-bottom: 2%;
 }
 
 .container {
@@ -59,4 +55,43 @@ header .statement {
 
 .container .name {
     width: 100%;
+    font-style: italic;
+}
+
+.container .title {
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+/** Footer **/
+footer {
+    border-top: 1px solid black;
+    width: 100%;
+    margin: 1%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer .container {
+    padding-top: 1%;
+}
+
+footer .define {
+    width: 50%; 
+    text-align: left;
+}
+
+footer .noun {
+    text-align: left;
+    width: 12%;
+    padding-left: 1%; 
+    font-weight: bolder;
+}
+
+footer .contact {
+    text-align: right;
+    width: 15%;
+    padding-right: 1%;
+    text-transform: uppercase;
+    margin-left: 22%;
 }
