@@ -1,0 +1,138 @@
+/** Universal **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: "Nanum Myeongjo";
+    background-color: white;
+    cursor: url('Art/READYMADE.art/logos/cursor.jpg'), auto;
+}
+/** BACKGROUND STYLING **/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/** Intro Text **/
+.intro {
+    padding-left: 12%; 
+    padding-right: 12%;
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 3%;
+}
+/**Image One**/
+.imageone {
+    display: grid;
+    height: 100%;
+}
+.centerfit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+} 
+/** two images **/
+.duoimage {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 50%;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    padding: 3%; 
+}
+
+/** Text **/
+.textone{
+    padding-top: 3%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 3%;
+}
+
+/** Text 2 **/
+.texttwo{
+    padding-top: 3%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 3%;
+}
+
+
+/** Text 3 **/
+.textthree {
+    padding-top: 3%;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-bottom: 3%;
+}
+
+/** two images **/
+.duoimage2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 50%;
+}
+
+.container img {
+    width: 100%;
+    height: 100%; 
+}
+
+
+
+/**Bottom**/
+
+.footer {
+    padding-top: 2%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.footer p {
+    font-style: italic;
+}
+
+.footer a{
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+/**Link Styling**/
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
