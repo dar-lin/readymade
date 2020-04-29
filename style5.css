@@ -65,3 +65,24 @@ img {
     padding-right: 25%;
     padding-bottom: 5%;
 }
+/**Link Styling**/
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}

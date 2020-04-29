@@ -1,0 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3891564, 2020-04-16T13:40:50-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: GascogneSerial-Xlight by SoftMaker
+ * URL: https://www.myfonts.com/fonts/softmaker/gascogne-serial/xlight/
+ * Copyright: Copyright (c) 2012 by SoftMaker Software GmbH and its licensors. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3b616c");
+  
+@font-face {
+  font-family: 'GascogneSerial-Xlight';
+  src: url('webFonts/GascogneSerial-Xlight/font.woff2') format('woff2'), url('webFonts/GascogneSerial-Xlight/font.woff') format('woff');
+}
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>READYMADE</title>
+        <link href="teststyle.css" type="text/css" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Nanum+Myeongjo:wght@400;700;800" rel="stylesheet">
+   </head>
+<body>
+<div>
+    <img id="imageTest" src="Art/READYMADE.art/square_images/readymade layout2.jpg" onmouseover=setNewImage() onmouseout="setOldImage()">
+</div>
+</body>
+<script type="text/javascript">
+    function setNewImage(){
+    document.getElementById("imageTest").src="Art/READYMADE.art/square_images/readymade layout3.jpg"
+    }
+
+    function setOldImage(){
+        document.getElementById("imageTest").src="Art/READYMADE.art/square_images/readymade layout2.jpg"
+    }
+</script>
+</html>
