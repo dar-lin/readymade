@@ -67,6 +67,7 @@ and (max-device-width : 480px) {
     justify-content: center; 
     width: 100%;
     flex-grow: 1;
+    padding-bottom: 5%;
 }
 
 .container {
