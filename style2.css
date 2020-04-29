@@ -55,6 +55,7 @@ and (max-device-width : 480px) {
         display: flex;
         flex-direction: column;
         padding-top: 5%; 
+        font-family: "READYMADE FINAL";
     }
 }
 
