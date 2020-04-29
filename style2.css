@@ -116,10 +116,6 @@ and (max-device-width : 480px) {
         margin: 0;
     }
 
-    .home-art {
-        display: none;
-    }
-
     .container {
         width: 100%; 
     }
@@ -127,7 +123,7 @@ and (max-device-width : 480px) {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
-    .home-art-mobile {
+    .home-art {
         flex-direction: column;
         align-content: center;
         justify-content: space-around;
@@ -135,10 +131,6 @@ and (max-device-width : 480px) {
         margin: 0;
     }
 
-    .home-art {
-        display: none;
-    }
-    
     .container {
         width: 100%; 
     }
