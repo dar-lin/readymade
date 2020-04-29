@@ -6,7 +6,7 @@
        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Nanum+Myeongjo:wght@400;700;800" rel="stylesheet">
    </head>
 </html>
-<body>
+<body class="wrapper">
 <header>
     <div class="manifesto">
     <a>Manifesto</a>
@@ -21,7 +21,7 @@
 <div class="home-art">
     <div class = "container">
         <div class="image">
-        <img src="Art/READYMADE.art/square_images/readymade layout9.jpg">
+            <img id="imageTest2" src="Art/READYMADE.art/sample_cover.jpg" onmouseover="setNewImage2()" onmouseout="setOldImage2()">
         </div>
         <div class="title">
         <h1>Here's A Name</h1>
@@ -32,7 +32,7 @@
     </div>
     <div class= "container">
         <div class="image">
-        <img src="Art/READYMADE.art/square_images/readymade layout5.jpg .jpg">
+            <img id="imageTest" src="Art/READYMADE.art/sample_cover.jpg" onmouseover=setNewImage() onmouseout="setOldImage()">
         </div>
         <div class="title">
         <h1>Another One Here</h1>
@@ -43,21 +43,49 @@
     </div>
     <div class="container">
         <div class="image">
-        <img src="Art/READYMADE.art/square_images/readymade layout17.jpg">
+            <img id="imageTest1" src="Art/READYMADE.art/sample_cover.jpg" onmouseover="setNewImage1()" onmouseout="setOldImage1()">
         </div>
         <div class="title">
         <h1>What's It Called?</h1>
         </div>
         <div class="name">
-        <h2>Peter Martin</h2>
+        <h2>Peter Freleng</h2>
         </div>
     </div>
 </div>
 <footer>
-    <div class="container noun">
-        <span>[red-ee-meyd] noun.</span>
-    </div>
-    <div class="container define">
-        <span>an ordinary object elevated to the dignity of a work of art by the mere choice of an artist.</span>
-    </div>
+    <div class="tcontainer"><div class="ticker-wrap"><div class="ticker-move">
+        <div class="ticker-item1">[red-ee-meyd] noun.</div>
+        <div class="ticker-item2">an ordinary object elevated to the dignity of a work of art by the mere choice of an artist.</div>
+    </div></div></div>
 </footer>
+
+
+
+<script type="text/javascript">
+    function setNewImage(){
+        document.getElementById("imageTest").src="Art/READYMADE.art/square_images/readymadelayout5.jpg"; 
+    }
+
+    function setNewImage1(){
+        document.getElementById("imageTest1").src="Art/READYMADE.art/square_images/readymade layout9.jpg"; 
+    }
+
+    function setNewImage2(){
+        document.getElementById("imageTest2").src="Art/READYMADE.art/square_images/readymade layout17.jpg"; 
+    }
+
+    function setOldImage(){
+        document.getElementById("imageTest").src="Art/READYMADE.art/sample_cover.jpg"
+        
+    }
+
+    function setOldImage1(){
+        document.getElementById("imageTest1").src="Art/READYMADE.art/sample_cover.jpg"
+    }
+
+    function setOldImage2(){
+        document.getElementById("imageTest2").src="Art/READYMADE.art/sample_cover.jpg"
+    }
+</script>
+</body>

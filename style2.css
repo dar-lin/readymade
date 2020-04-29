@@ -5,8 +5,13 @@
     box-sizing: border-box;  
     font-family: "Nanum Myeongjo";
     background-color: white;
+    cursor: url('Art/READYMADE.art/logos/cursor.jpg'), auto;
 }
-
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 /** HOMEPAGE WITH ART **/
 
 /** HEADER **/
@@ -18,18 +23,19 @@ header {
     padding-top: 1%;
     text-align: center;
     line-height: 3em;
+    flex-shrink: 0;
 }
 
 header .contact {
-    text-align: right;
     text-transform: uppercase;
-    padding-right: 1%;
+    padding-right: 20%;
+    font-size: 1em;
 }
 
 header .manifesto {
-    text-align: left;
     text-transform: uppercase;
-    padding-left: 1%;
+    padding-left: 20%;
+    font-size: 1em;
 }
 
 /**Image Containers**/
@@ -37,8 +43,10 @@ header .manifesto {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding-bottom: 2%;
+    justify-content: center; 
+    width: 100%;
+    flex-grow: 1;
+    padding-bottom: 1.5%;
 }
 
 .container {
@@ -47,7 +55,7 @@ header .manifesto {
 }
 
 .container .image {
-    width: 100%; 
+    width: 100%;    
 }
 
 .image img {
@@ -69,23 +77,47 @@ header .manifesto {
 footer {
     border-top: 1px solid black;
     width: 100%;
-    margin: 1%;
-    display: flex;
-    justify-content: flex-start;
+    max-height: 6em;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 
-footer .container {
-    padding-top: 1%;
+.tcontainer {
+    width: 100%;
+    overflow: hidden; /* Hide scroll bar */
+    line-height: 6em;
+  }
+
+.ticker-wrap {
+    width: 100%;
+    padding-left: 100%;
 }
 
-footer .define {
-    width: 50%; 
-    text-align: left;
+@keyframes ticker {
+    0% { transform: translate3d(0, 0, 0); }
+    100% { transform: translate3d(-100%, 0, 0); }
 }
 
-footer .noun {
-    text-align: left;
-    width: 12%;
-    padding-left: 1%; 
+.ticker-move {
+/* Basically move items from right side of screen to left in infinite loop */
+display: inline-block;
+white-space: nowrap;
+padding-right: 100%;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-name: ticker;
+animation-duration: 20s; 
+}
+
+.ticker-item1 {
+    display: inline-block; /* Lay items in a horizontal line */
+    padding-right: 02rem; 
+    font-size: 1.5em;
     font-weight: bolder;
+  }
+
+.ticker-item2 {
+    display: inline-block; 
+    padding-right: 80rem;
+    font-size: 1.5em;
 }
