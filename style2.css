@@ -3,39 +3,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;  
-    font-family: "Nanum Myeongjo";
     background-color: white;
-    cursor: url('Art/READYMADE.art/logos/cursor.jpg'), auto;
 }
-.wrapper {
+html {
+    position: relative;
     min-height: 100%;
-    display: flex;
-    flex-direction: column;
 }
-/** HOMEPAGE WITH ART **/
-
 /** HEADER **/
 header {
+    font-family: "READYMADE FINAL";
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     border-bottom: 1px solid black;
     padding-top: 1%;
-    text-align: center;
-    line-height: 3em;
-    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    line-height: 4em;
+}
+.headersmall {
+    display: none; 
 }
 
-header .contact {
+header .container {
     text-transform: uppercase;
-    padding-right: 20%;
-    font-size: 1em;
+    font-size: 2vh;
 }
 
-header .manifesto {
-    text-transform: uppercase;
-    padding-left: 20%;
-    font-size: 1em;
+.main {
+    font-size: 3em;    
+}
+
+/** Media **/
+@media only screen and (max-width: 850px) {
+    .headerlarge {
+        display: none;
+    }
+
+    .headersmall {
+        display: flex;
+        flex-direction: column;
+        padding: 0; 
+    }
 }
 
 /**Image Containers**/
@@ -46,7 +53,6 @@ header .manifesto {
     justify-content: center; 
     width: 100%;
     flex-grow: 1;
-    padding-bottom: 1.5%;
 }
 
 .container {
@@ -73,20 +79,62 @@ header .manifesto {
     font-weight: lighter;
 }
 
-/** Footer **/
-footer {
-    border-top: 1px solid black;
-    width: 100%;
-    max-height: 6em;
-    flex-shrink: 0;
-    flex-grow: 0;
+.container .B {
+    font-size: .7em;
 }
 
+.container .P {
+    font-size: 1em;
+}
+
+/** Media **/
+@media only screen and (max-width: 850px) {
+    .home-art {
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+        padding: 0; 
+        margin: 0;
+    }
+    .container {
+        width: 100%; 
+    }
+}
+
+/** Footer **/
+footer {
+    font-family: "Nanum Myeongjo";
+    border-top: 1px solid black;
+    width: 100%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    display: inline-block;
+    line-height: 4em;
+    padding-left: 1%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.ticker-item {
+    font-size: 1em;
+  }
+
+/** Media **/
+@media only screen and (max-width: 850px) {
+    footer {
+        margin-top: 10%; 
+        line-height: 1.5em;
+    }
+}
+
+
+/**
 .tcontainer {
     width: 100%;
-    overflow: hidden; /* Hide scroll bar */
+    overflow: hidden; 
     line-height: 6em;
-  }
+}
 
 .ticker-wrap {
     width: 100%;
@@ -99,7 +147,6 @@ footer {
 }
 
 .ticker-move {
-/* Basically move items from right side of screen to left in infinite loop */
 display: inline-block;
 white-space: nowrap;
 padding-right: 100%;
@@ -109,15 +156,25 @@ animation-name: ticker;
 animation-duration: 20s; 
 }
 
-.ticker-item1 {
-    display: inline-block; /* Lay items in a horizontal line */
-    padding-right: 02rem; 
-    font-size: 1.5em;
-    font-weight: bolder;
-  }
+**/
 
-.ticker-item2 {
-    display: inline-block; 
-    padding-right: 80rem;
-    font-size: 1.5em;
+/**Link Styling**/
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
 }
