@@ -91,7 +91,7 @@ and (max-device-width : 480px) {
 
 /** Media **/
 @media only screen and (max-width: 850px) {
-    .home-art {
+    .mobileart {
         display: flex; 
         flex-direction: column;
         align-content: center;
@@ -100,7 +100,6 @@ and (max-device-width : 480px) {
         margin: 0;
         width: 100%;
     }
-    
     .container .image {
         width: 100%;
         height: 100%;    
@@ -111,7 +110,7 @@ and (max-device-width : 480px) {
         height: 100%;
     }
 
-    .mobileart {
+    .home-art {
         display: none; 
     }
 
