@@ -142,13 +142,19 @@ and (max-device-width : 480px) {
     .textone {
         padding-top: 0;
         padding-bottom: 0;
+        padding-left: 18%;
+        padding-right: 18%;
     }
     .texttwo {
         padding-top: 0;
         padding-bottom: 0;
+        padding-left: 18%;
+        padding-right: 18%;
     }
     .textthree {
         padding-top: 0;
         padding-bottom: 0;
+        padding-left: 18%;
+        padding-right: 18%;
     }
 }
