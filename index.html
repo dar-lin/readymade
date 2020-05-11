@@ -60,6 +60,8 @@
     <a href="contact.html" class="reach">Reach Me</a>
     </div>
 </header>
+
+<!--MAIN HOME-->
 <div class="home-art">
     <div class= "container">
         <div class="image">
@@ -82,7 +84,29 @@
             </a>    
         </div>
     </div>
+    <div class="container">
+        <div class="image new">
+            <a>
+            <img id="imageTestMemo" src="NEW/COVERS/memo cover 2.jpg" onmouseover="setNewImageMemo()" onmouseout="setOldImageMemo()">
+            </a>    
+        </div>
+    </div>
+    <div class="container">
+        <div class="image new">
+            <a>
+            <img id="imageTestIdle" src="NEW/COVERS/nicolas cover.jpg" onmouseover="setNewImageIdle()" onmouseout="setOldImageIdle()">
+            </a>    
+        </div>
+    </div>
+    <div class="container">
+        <div class="image new">
+            <a>
+            <img id="imageTestHead" src="NEW/COVERS/HEADPROP.jpg" onmouseover="setNewImageHead()" onmouseout="setOldImageHead()">
+            </a>    
+        </div>
+    </div>
 </div>
+<!--MOBILE-->
 <div class="mobileart">
     <div class= "container">
         <div class="image">
@@ -105,8 +129,29 @@
             </a>    
         </div>
     </div>
+    <div class="container">
+        <div class="image new">
+            <a>
+            <img id="imageTestMemo" src="NEW/COVERS/memo cover 2.jpg">
+            </a>    
+        </div>
+    </div>
+    <div class="container">
+        <div class="image new">
+            <a>
+            <img id="imageTestIdle" src="NEW/COVERS/nicolas cover.jpg">
+            </a>    
+        </div>
+    </div>
+    <div class="container">
+        <div class="image new">
+            <a>
+            <img id="imageTestHead" src="NEW/COVERS/HEADPROP.jpg">
+            </a>    
+        </div>
+    </div>
 </div>
-
+<!--FOOTER-->
 <footer>
     <div class="tcontainer"><div class="ticker-wrap"><div class="ticker-move">
         <div class="ticker-item"><strong>[red-ee-meyd] noun.</strong> an ordinary object elevated to the dignity of a work of art by the mere choice of an artist.</div>
@@ -114,7 +159,7 @@
 </footer>
 </html>
 
-
+<!--SCRIPT-->
 <script type="text/javascript">
     function setNewImage(){
         document.getElementById("imageTest").src="Art/READYMADE.art/square_images/readymadelayout5.jpg"; 
@@ -139,6 +184,24 @@
 
     function setOldImage2(){
         document.getElementById("imageTest2").src="finalcovers/BOE COVER FINAL.jpg"
+    }
+    function setNewImageMemo(){
+        document.getElementById("imageTestMemo").src="NEW/COVERS/ready soon 2.jpg"; 
+    }
+    function setNewImageIdle(){
+        document.getElementById("imageTestIdle").src="NEW/COVERS/ready soon 2.jpg"; 
+    }
+    function setNewImageHead(){
+        document.getElementById("imageTestHead").src="NEW/COVERS/ready soon 2.jpg"; 
+    }
+    function setOldImageMemo(){
+        document.getElementById("imageTestMemo").src="NEW/COVERS/memo cover 2.jpg"
+    }
+    function setOldImageIdle(){
+        document.getElementById("imageTestIdle").src="NEW/COVERS/nicolas cover.jpg"
+    }
+    function setOldImageHead(){
+        document.getElementById("imageTestHead").src="NEW/COVERS/HEADPROP.jpg"
     }
 </script>
 </body>
