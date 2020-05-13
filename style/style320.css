@@ -10,6 +10,7 @@ div.header {
 }
 div.header img {
     width: 100%; 
+    height: auto;
 }
 
 div.singleimage {
@@ -18,7 +19,8 @@ div.singleimage {
 }
 
 div.singleimage img {
-    width: 60%
+    width: 60%;
+    height: auto;
 }
 
 div.doubleimage {
@@ -28,6 +30,7 @@ div.doubleimage {
 
 div.doubleimage img {
     width: 48%; 
+    height: auto;
     padding: 0 1% 0 1%; 
 }
 
