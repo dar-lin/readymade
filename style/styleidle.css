@@ -82,6 +82,7 @@ p.intro {
     font-size: 3.5vh; 
     margin: 1% 12% 3% 12%;
     text-align: center;
+    color: red; 
 }
 
 div.footer {
