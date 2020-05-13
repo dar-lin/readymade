@@ -1,6 +1,6 @@
 body {
     font-family: "Nanum Myeongjo";
-    text-align: justify;
+    text-align: center;
 }
 
 div.header {
@@ -17,8 +17,13 @@ div.singleimage {
     justify-content: center;
 }
 
+div.singleimage .container {
+    width: 60%;
+}
+
 div.singleimage img {
-    width: 60%
+    width: 100%;
+    height: 100%;
 }
 
 div.doubleimage {
@@ -26,9 +31,15 @@ div.doubleimage {
     justify-content: center;
 }
 
+div.doubleimage .container {
+    width: 48%;
+    padding: 0 1% 0 1%;    
+}
+
 div.doubleimage img {
-    width: 48%; 
-    padding: 0 1% 0 1%; 
+    width: 100%;
+    height: 100%;
+    
 }
 
 div.nineimage {
@@ -37,9 +48,14 @@ div.nineimage {
     justify-content: center;
 }
 
-div.nineimage img{
+div.nineimage .container{
     width: 30%;
     padding: 1%; 
+}
+
+div.nineimage img {
+    width: 100%;
+    height: 100%; 
 }
 
 p {
