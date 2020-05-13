@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>READYMADE</title>
+       <link href="style2.css" type="text/css" rel="stylesheet">
+       <link href="READYMADEFINAL.otf" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Nanum+Myeongjo:wght@400;700;800" rel="stylesheet">
+    </head>
+<body>
+<header class="headerlarge">
+    <div class="container A">
+    <a href="read.html" class="read">Read Me</a>
+    </div>
+    <div class="container B">
+    <a href="index2.html" class="main">READYMADE</a>
+    </div>
+    <div class="container C">
+    <a href="contact.html" class="reach">Reach Me</a>
+    </div>
+</header>
+
+<!--media-->
+<header class="headersmall">
+    <div class="container B">
+    <a href="index2.html" class="main">READYMADE</a>
+    </div>
+    <div class="container A">
+    <a href="read.html" class="read">Read Me</a>
+    </div>
+    <div class="container C">
+    <a href="contact.html" class="reach">Reach Me</a>
+    </div>
+</header>
+
+<div class="home-art">
+    <div class= "container">
+        <div class="image">
+            <a href="pageM.html">
+            <img id="imageTest" src="finalcovers/Mustafa COVER FINAL.jpg" onmouseover=setNewImage() onmouseout="setOldImage()">
+            </a>
+        </div>
+    </div>
+    <div class = "container">
+        <div class="image">
+            <a href="pageB.html">
+            <img id="imageTest2" src="finalcovers/BOE COVER FINAL.jpg" onmouseover="setNewImage2()" onmouseout="setOldImage2()">
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="image">
+            <a href="pageP.html">
+            <img id="imageTest1" src="finalcovers/Peter COVER FINAL.jpg" onmouseover="setNewImage1()" onmouseout="setOldImage1()">
+            </a>    
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="tcontainer"><div class="ticker-wrap"><div class="ticker-move">
+        <div class="ticker-item"><strong>[red-ee-meyd] noun.</strong> an ordinary object elevated to the dignity of a work of art by the mere choice of an artist.</div>
+    </div></div></div>
+</footer>
+</html>
+
+
+<script type="text/javascript">
+    function setNewImage(){
+        document.getElementById("imageTest").src="Art/READYMADE.art/square_images/readymadelayout5.jpg"; 
+    }
+
+    function setNewImage1(){
+        document.getElementById("imageTest1").src="Art/READYMADE.art/square_images/readymade layout9.jpg"; 
+    }
+
+    function setNewImage2(){
+        document.getElementById("imageTest2").src="Art/READYMADE.art/square_images/readymade layout17.jpg"; 
+    }
+
+    function setOldImage(){
+        document.getElementById("imageTest").src="finalcovers/Mustafa COVER FINAL.jpg"
+        
+    }
+
+    function setOldImage1(){
+        document.getElementById("imageTest1").src="finalcovers/Peter COVER FINAL.jpg"
+    }
+
+    function setOldImage2(){
+        document.getElementById("imageTest2").src="finalcovers/BOE COVER FINAL.jpg"
+    }
+</script>
+</body>
