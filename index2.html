@@ -2,91 +2,77 @@
 <html>
     <head>
         <title>READYMADE</title>
-       <link href="style2.css" type="text/css" rel="stylesheet">
-       <link href="READYMADEFINAL.otf" rel="stylesheet">
-       <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Nanum+Myeongjo:wght@400;700;800" rel="stylesheet">
+        <link href="style/stylehome.css" type="text/css" rel="stylesheet">
+        <meta content="width=device-width" name="viewport">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Nanum+Myeongjo:wght@400;700;800" rel="stylesheet">
+        <script src="javahometest.js"></script>
     </head>
-<body>
-<header class="headerlarge">
-    <div class="container A">
-    <a href="read.html" class="read">Read Me</a>
-    </div>
-    <div class="container B">
-    <a href="index2.html" class="main">READYMADE</a>
-    </div>
-    <div class="container C">
-    <a href="contact.html" class="reach">Reach Me</a>
-    </div>
-</header>
-
-<!--media-->
-<header class="headersmall">
-    <div class="container B">
-    <a href="index2.html" class="main">READYMADE</a>
-    </div>
-    <div class="container A">
-    <a href="read.html" class="read">Read Me</a>
-    </div>
-    <div class="container C">
-    <a href="contact.html" class="reach">Reach Me</a>
-    </div>
-</header>
-
-<div class="home-art">
-    <div class= "container">
-        <div class="image">
-            <a href="pageM.html">
-            <img id="imageTest" src="finalcovers/Mustafa COVER FINAL.jpg" onmouseover=setNewImage() onmouseout="setOldImage()">
+    <body>
+        <header class="screen">
+           <a class="side" href="html/read.html">Read Me</a>
+           <a class="title" href="1home.html">READYMADE</a>
+           <a class="side" href="html/contact.html">Reach Me</a> 
+        </header>
+        <main class="screen">
+            <div>
+                <a href="HTML/saturn.html">
+                <img id="saturn"src="COVERS/SATURNcover.jpg" onmouseover="setNewImageSaturn()" onmouseout="setOldImageSaturn()">
+                </a>
+            </div>
+            <div>
+                <a href="html/isolation.html">
+                <img id="isolation"src="COVERS/BOEcover.jpg"onmouseover="setNewImageIsolation()" onmouseout="setOldImageIsolation()">
+                </a>
+            </div>
+            <div>
+                <a href="html/320.html">
+                <img id="320"src="COVERS/320cover.jpg"onmouseover="setNewImage320()" onmouseout="setOldImage320()">
+                </a>
+            </div>
+            <div>
+                <a href="html/memorandum.html">
+                <img id="memo"src="COVERS/MEMOcover.jpg"onmouseover="setNewImageMemo()" onmouseout="setOldImageMemo()">
+                </a>
+            </div>
+            <div>
+                <a href="html/idle.html">
+                <img id="idle"src="COVERS/IDLEcover.jpg"onmouseover="setNewImageIdle()" onmouseout="setOldImageIdle()">
+                </a>
+            </div>
+            <div>
+                <a href="html/readysoon.html">
+                <img id="headprop"src="COVERS/HEADPROPcover.jpg"onmouseover="setNewImageHead()" onmouseout="setOldImageHead()">
+                </a>
+            </div>
+        </main>
+        <!--MEDIA-->
+        <header class="mobile">
+            <a class="title">READYMADE</a>
+            <a class="side">Read Me</a>
+            <a class="side">Reach Me</a> 
+         </header>
+        <main class="mobile">
+            <a href="HTML/saturn.html">
+            <img src="COVERS/SATURNcover.jpg">
             </a>
-        </div>
-    </div>
-    <div class = "container">
-        <div class="image">
-            <a href="pageB.html">
-            <img id="imageTest2" src="finalcovers/BOE COVER FINAL.jpg" onmouseover="setNewImage2()" onmouseout="setOldImage2()">
+            <a href="html/isolation.html">
+            <img src="COVERS/BOEcover.jpg">
             </a>
-        </div>
-    </div>
-    <div class="container">
-        <div class="image">
-            <a href="pageP.html">
-            <img id="imageTest1" src="finalcovers/Peter COVER FINAL.jpg" onmouseover="setNewImage1()" onmouseout="setOldImage1()">
-            </a>    
-        </div>
-    </div>
-</div>
-<footer>
-    <div class="tcontainer"><div class="ticker-wrap"><div class="ticker-move">
-        <div class="ticker-item"><strong>[red-ee-meyd] noun.</strong> an ordinary object elevated to the dignity of a work of art by the mere choice of an artist.</div>
-    </div></div></div>
-</footer>
+            <a href="html/320.html">
+            <img src="COVERS/320cover.jpg">
+            </a>
+            <a href="html/memorandum.html">
+            <img src="COVERS/MEMOcover.jpg">
+            </a>
+            <a href="html/idle.html">
+            <img src="COVERS/IDLEcover.jpg">
+            </a>
+            <a href="html/readysoon.html">
+            <img src="COVERS/HEADPROPcover.jpg">
+            </a>
+        </main>
+        <footer>
+            <p><strong>[red-ee-meyd] noun.</strong> an ordinary object elevated to the dignity of a work of art by the mere choice of an artist.</p>
+        </footer>
+    </body>
 </html>
-
-
-<script type="text/javascript">
-    function setNewImage(){
-        document.getElementById("imageTest").src="Art/READYMADE.art/square_images/readymadelayout5.jpg"; 
-    }
-
-    function setNewImage1(){
-        document.getElementById("imageTest1").src="Art/READYMADE.art/square_images/readymade layout9.jpg"; 
-    }
-
-    function setNewImage2(){
-        document.getElementById("imageTest2").src="Art/READYMADE.art/square_images/readymade layout17.jpg"; 
-    }
-
-    function setOldImage(){
-        document.getElementById("imageTest").src="finalcovers/Mustafa COVER FINAL.jpg"
-        
-    }
-
-    function setOldImage1(){
-        document.getElementById("imageTest1").src="finalcovers/Peter COVER FINAL.jpg"
-    }
-
-    function setOldImage2(){
-        document.getElementById("imageTest2").src="finalcovers/BOE COVER FINAL.jpg"
-    }
-</script>
-</body>
