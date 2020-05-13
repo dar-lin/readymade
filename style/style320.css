@@ -1,6 +1,6 @@
 body {
     font-family: "Nanum Myeongjo";
-    text-align: center; 
+    text-align: justify; 
 }
 
 div.header {
@@ -77,11 +77,15 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) { 
     p {
         margin: 0 1% 0 %;
-        font-size: 1vh;
+        font-size: 1.5vmax;
     }
 
     p.intro {
-        font-size: 2vh;
+        font-size: 2vmax;
         margin: 0 1% 0 %;
+    }
+
+    div.footer {
+        font-size: 1.75vmax;
     }
 }
