@@ -69,12 +69,17 @@ div.footer a:hover{
 and (min-device-width : 320px)
 and (max-device-width : 480px) { 
     p {
-        margin: 0 1% 0 %;
-        font-size: 1vh;
+        margin: 0 1% 0 1%;
+        font-size: 1.5vmax;
+        text-align: center;
     }
 
     p.intro {
-        font-size: 2vh;
-        margin: 0 1% 0 %;
+        font-size: 2vmax;
+        margin: 0 1% 0 1%;
+    }
+
+    div.footer {
+        font-size: 1.75vmax;
     }
 }
