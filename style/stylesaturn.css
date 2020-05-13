@@ -17,8 +17,13 @@ div.singleimage {
     justify-content: center;
 }
 
+div.singleimage .container {
+    width: 60%;
+}
+
 div.singleimage img {
-    width: 60%
+    width: 100%;
+    height: 100%;
 }
 
 div.doubleimage {
@@ -26,14 +31,14 @@ div.doubleimage {
     justify-content: center;
 }
 
-div.doubleimage img {
-    width: 48%; 
-    padding: 0 1% 0 1%; 
+div.doubleimage .container {
+    width: 48%;
+    padding: 0 1% 0 1%;    
 }
 
-p {
-    font-size: 2vh;
-    margin: 3% 25% 3% 25%; 
+div.doubleimage img {
+    width: 100%;
+    height: 100%;
 }
 
 p.intro {
@@ -59,4 +64,17 @@ div.footer a{
 
 div.footer a:hover{
     font-style: italic;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) { 
+    p {
+        margin: 0 1% 0 %;
+        font-size: 1vh;
+    }
+
+    p.intro {
+        font-size: 2vh;
+        margin: 0 1% 0 %;
+    }
 }
