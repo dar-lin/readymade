@@ -1,0 +1,75 @@
+/** Universal **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: "Nanum Myeongjo";
+    background-color: white;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/**Image One**/
+.imageone {
+    display: grid;
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.centerfit {
+    max-width: 40%;
+    max-height: 40vh;
+    margin: auto;
+} 
+/**Link Styling**/
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 2%; 
+    height: 2%;
+    margin-left: 48%;
+}
+
+.container img {
+    width: 100%;
+    height: 100%:
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    .imageone {
+        display: none;
+    }
+}   
+   

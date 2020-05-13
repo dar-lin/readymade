@@ -1,0 +1,21 @@
+/** Universal **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: "Nanum Myeongjo";
+    background-color: white;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+header {
+    padding-top: 2%; 
+    padding-bottom: 3%;
+}

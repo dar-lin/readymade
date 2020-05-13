@@ -1,0 +1,21 @@
+/** Universal **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    background-color: white;
+    font-family: "READYMADE FINAL";
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.readysoon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.readysoon img {
+    width: 70%;
+}
