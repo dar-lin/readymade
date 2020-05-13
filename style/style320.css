@@ -51,6 +51,7 @@ p.intro {
     font-size: 3.5vh; 
     margin: 1% 12% 3% 12%;
     text-align: center;
+    color: palevioletred;
 }
 
 div.footer {
@@ -70,4 +71,12 @@ div.footer a{
 
 div.footer a:hover{
     font-style: italic;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) { 
+    p {
+        margin: 0 0 0 0;
+    }
 }
