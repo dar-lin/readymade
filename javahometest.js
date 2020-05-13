@@ -1,19 +1,19 @@
 function setNewImageSaturn(){
-    document.getElementById("saturn").src="ART/HOMECOVERS/saturnbackground.JPG"
+    document.getElementById("saturn").src="Art/HOMECOVERS/saturnbackground.JPG"
 }
 function setOldImageSaturn(){
     document.getElementById("saturn").src="COVERS/SATURNcover.jpg"
 }
 
 function setNewImageIsolation(){
-    document.getElementById("isolation").src="ART/HOMECOVERS/isolationbackground.JPG"
+    document.getElementById("isolation").src="Art/HOMECOVERS/isolationbackground.JPG"
 }
 function setOldImageIsolation(){
     document.getElementById("isolation").src="COVERS/BOEcover.jpg"
 }
 
 function setNewImage320(){
-    document.getElementById("320").src="ART/HOMECOVERS/320background.JPG"
+    document.getElementById("320").src="Art/HOMECOVERS/320background.JPG"
 }
 function setOldImage320(){
     document.getElementById("320").src="COVERS/320cover.jpg"
@@ -41,7 +41,7 @@ function setOldImageHead(){
 }
 
 function setNewImageSaturn(){
-    document.getElementById("saturn").src="ART/HOMECOVERS/saturnbackground.JPG"
+    document.getElementById("saturn").src="Art/HOMECOVERS/saturnbackground.JPG"
 }
 function setOldImageSaturn(){
     document.getElementById("saturn").src="COVERS/SATURNcover.jpg"
