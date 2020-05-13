@@ -1,21 +1,26 @@
-/** Universal **/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;  
-    font-family: "Nanum Myeongjo";
-    background-color: white;
+@font-face {
+    font-family: ReadyMadeFinal;
+    src: url(../READYMADEF.otf); 
 }
 
 body {
     text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+    font-family: "Nanum Myeongjo";
+     
 }
 
 header {
     padding-top: 2%; 
     padding-bottom: 3%;
+    font-size: 3vmax;
+    font-family: ReadyMadeFinal;
+}
+
+header a {
+    text-decoration: none;
+    color: black; 
+}
+
+header a:hover{
+    font-style: italic;
 }
