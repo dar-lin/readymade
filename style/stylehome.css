@@ -1,0 +1,74 @@
+@font-face {
+    font-family: ReadyMadeFinal;
+    src: url(../READYMADEF.otf); 
+}
+
+header.mobile {
+    display: none; 
+}
+
+header {
+    font-family: ReadyMadeFinal;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: max-content;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+header a {
+    padding: 2% 0 2% 0;
+    text-decoration: none;
+    color: black; 
+}
+
+header a:hover {
+    font-style: italic;
+}
+
+header a.title {
+    font-size: 6vh;
+}
+
+header a.side {
+    font-size: 3vh;
+}
+
+main.mobile {
+    display: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+main div {
+    width: 30%
+}
+
+main div img {
+    width: 100%; 
+}
+
+footer {
+    font-family: "Nanum Myeongjo";
+    font-size: 2vh; 
+    position: relative;
+    bottom: 0; 
+    left: 0; 
+    border-top: 1px solid black; 
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+footer p {
+    padding: 0 0 0 1%; 
+    width: max-content;
+  
+}
