@@ -20,29 +20,22 @@ function setOldImage320(){
 }
 
 function setNewImageMemo(){
-    document.getElementById("memo").src="COVERS/READYSOONcover.jpg"
+    document.getElementById("memo").src="Art/HOMECOVERS/memorandombackground.jpg"
 }
 function setOldImageMemo(){
     document.getElementById("memo").src="COVERS/MEMOcover.jpg"
 }
 
 function setNewImageIdle(){
-    document.getElementById("idle").src="COVERS/READYSOONcover.jpg"
+    document.getElementById("idle").src="Art/HOMECOVERS/readysoonbackground.jpg"
 }
 function setOldImageIdle(){
     document.getElementById("idle").src="COVERS/IDLEcover.jpg"
 }
 
 function setNewImageHead(){
-    document.getElementById("headprop").src="COVERS/READYSOONcover.jpg"
+    document.getElementById("headprop").src="Art/HOMECOVERS/readysoonbackground.jpg"
 }
 function setOldImageHead(){
     document.getElementById("headprop").src="COVERS/HEADPROPcover.jpg"
-}
-
-function setNewImageSaturn(){
-    document.getElementById("saturn").src="Art/HOMECOVERS/saturnbackground.jpg"
-}
-function setOldImageSaturn(){
-    document.getElementById("saturn").src="COVERS/SATURNcover.jpg"
 }
