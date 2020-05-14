@@ -10,7 +10,7 @@ body {
 
 .container {
     width: 30%; 
-    margin-top: 10%
+    margin: 10% 0 10% 0; 
 }
 
 .container img {
