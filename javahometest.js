@@ -27,7 +27,7 @@ function setOldImageMemo(){
 }
 
 function setNewImageIdle(){
-    document.getElementById("idle").src="Art/HOMECOVERS/readysoonbackground.jpg"
+    document.getElementById("idle").src="Art/HOMECOVERS/idlebackground.jpg"
 }
 function setOldImageIdle(){
     document.getElementById("idle").src="COVERS/IDLEcover.jpg"
