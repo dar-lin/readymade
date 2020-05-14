@@ -37,5 +37,5 @@ function setNewImageHead(){
     document.getElementById("headprop").src="Art/HOMECOVERS/readysoonbackground.jpg"
 }
 function setOldImageHead(){
-    document.getElementById("headprop").src="COVERS/READYSOONFINALcover.jpg"
+    document.getElementById("headprop").src="COVERS/untitledcover1.jpg"
 }
