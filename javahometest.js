@@ -34,8 +34,8 @@ function setOldImageIdle(){
 }
 
 function setNewImageHead(){
-    document.getElementById("headprop").src="Art/HOMECOVERS/readysoonbackground.jpg"
+    document.getElementById("pickup").src="Art/HOMECOVERS/pickupbackground.jpg"
 }
 function setOldImageHead(){
-    document.getElementById("headprop").src="COVERS/untitledcover1.jpg"
+    document.getElementById("pickup").src="COVERS/PICKUPcover.jpg"
 }
