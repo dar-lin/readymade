@@ -20,7 +20,7 @@ function setOldImage320(){
 }
 
 function setNewImageMemo(){
-    document.getElementById("memo").src="Art/HOMECOVERS/readysoonbackground.jpg"
+    document.getElementById("memo").src="Art/HOMECOVERS/memorandombackground.jpg"
 }
 function setOldImageMemo(){
     document.getElementById("memo").src="COVERS/MEMOcover.jpg"
