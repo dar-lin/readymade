@@ -37,5 +37,5 @@ function setNewImageHead(){
     document.getElementById("pickup").src="Art/HOMECOVERS/pickupbackground.jpg"
 }
 function setOldImageHead(){
-    document.getElementById("pickup").src="COVERS/PICKUPcoverNew.jpg"
+    document.getElementById("pickup").src="COVERS/PICKUPCoverNew.jpg"
 }
