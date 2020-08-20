@@ -1,0 +1,107 @@
+@font-face {
+    font-family: ReadyMadeFinal;
+    src: url(../READYMADEF.otf); 
+}
+
+body {
+    font-family: ReadyMadeFinal;
+    align-items: center; 
+}
+
+div.titlebox {
+   text-align: left;
+   background-image: url("../ISSUETWOART/Edouard/edouard3.jpg");
+   height: 100vh; 
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative; 
+}
+
+div.titletext {
+    position: absolute; 
+    bottom: 15vh; 
+    right: 12vw; 
+    font-size: 1.5em;
+    width: 35vw;
+}
+
+div.singleimage {
+    display: flex; 
+    justify-content: center;
+    margin: 0 0 2vh 0; 
+}
+
+div.singleimage img {
+    height: 90vh; 
+}
+
+div.textimage {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+}
+
+div.interview {
+    font-size: .75em;
+    width: 30vw; 
+    text-align: justify;
+    height: auto;
+    margin: 5vh 12vw 0 3vw; 
+}
+
+div.image {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 5vw 0 2vw; 
+}
+
+div.image img {
+    width: 100%;
+    height: 100%;
+    margin: 5vh 0 5vh 0;
+}
+
+div.horizontalimage {
+    display: flex; 
+    justify-content: center;
+    width: 90vw; 
+    height: auto; 
+    margin: 2vh 5vw 2vh 5vw; 
+}
+
+div.horizontalimage img {
+    width: 100%;
+}
+
+div.doubleimage {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 5vh 0 5vh 0; 
+}
+
+div.doubleimage img {
+    width: 40%; 
+    height: 90%; 
+}
+
+div.footer {
+    text-align: center;
+    margin-bottom: 5vh;
+    font-size: 1.25em;
+}
+
+div.footer a{
+    text-decoration: none;
+    color: black; 
+}
+
+div.footer a:hover {
+    font-style: italic;
+}

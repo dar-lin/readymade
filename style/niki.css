@@ -1,0 +1,56 @@
+@font-face {
+    font-family: ReadyMadeFinal;
+    src: url(../READYMADEF.otf); 
+}
+
+body {
+    font-family: ReadyMadeFinal;
+    align-items: center; 
+}
+
+div.titletext {
+    text-align: center; 
+    margin-top: 5vh;
+    font-size: 1.5em;
+ }
+
+ div.doubleimage {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 3vh 0 3vh 0; 
+}
+
+div.doubleimage img {
+    width: 48%; 
+    height: 95%; 
+}
+
+div.textbox {
+    font-size: .75em;
+    width: 100vw; 
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+div.interview {
+    width: 50%;
+}
+
+div.footer {
+    text-align: center;
+    margin-bottom: 5vh;
+    font-size: 1.25em;
+}
+
+div.footer a{
+    text-decoration: none;
+    color: black; 
+}
+
+div.footer a:hover {
+    font-style: italic;
+}
