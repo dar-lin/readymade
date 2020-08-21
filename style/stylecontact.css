@@ -9,7 +9,8 @@ body {
 }
 
 .container {
-    width: 30%; 
+    height: 30vh; 
+    width: 15vw; 
     margin: 10% 0 10% 0; 
 }
 
