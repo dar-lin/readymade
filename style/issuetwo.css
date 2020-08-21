@@ -15,6 +15,7 @@ header {
     height: max-content;
     border-bottom: 1px solid black;
     text-align: center;
+   
 }
 
 header a {
@@ -193,4 +194,14 @@ footer p {
     padding: 0 0 0 1%; 
     width: max-content;
   
+}
+
+footer a {
+    padding: .25% 0 .25% 0;
+    text-decoration: none;
+    color: black; 
+}
+
+footer a:hover {
+    font-style: italic;
 }
