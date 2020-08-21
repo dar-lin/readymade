@@ -9,5 +9,6 @@ html {
     align-items: center;
 }
 .readysoon img {
-    width: 70%;
+    width: auto; 
+    height: 90vh; 
 }
