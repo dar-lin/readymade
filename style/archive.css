@@ -1,0 +1,46 @@
+@font-face {
+    font-family: ReadyMadeFinal;
+    src: url(../READYMADEF.otf); 
+}
+
+body {
+    font-family: ReadyMadeFinal;
+    text-align: left;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    text-align: center;
+    padding-top: 1.5vh;
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+}
+
+a.issue {
+    padding: 4vh 0 4vh 0; 
+}
+
+a:hover {
+    font-style: italic;
+}
+
+a.title {
+    font-size: 6vh;
+}
+
+a.side {
+    font-size: 3vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
