@@ -8,7 +8,23 @@ html {
     justify-content: center;
     align-items: center;
 }
+
 .readysoon img {
-    width: 95vw; 
-    height: auto; 
-}
+    width: auto; 
+    height: 90vh;
+
+/** MOBILE **/
+@media only screen and (max-width: 850px) {
+    .readysoon img {
+        width: 95vw; 
+        height: auto; 
+      }
+    }
+    
+    @media only screen and (min-device-width : 320px)
+        and (max-device-width : 480px) {
+            .readysoon img {
+                width: 95vw; 
+                height: auto; 
+        }
+    }
