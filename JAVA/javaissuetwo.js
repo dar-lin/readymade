@@ -11,7 +11,7 @@ rightLayer.addEventListener("click", function() {
     currentSlide = currentSlide + 1
     z = z + 1
 
-    if (currentSlide > 4) {
+    if (currentSlide > 5) {
         currentSlide = 0
     }
 
