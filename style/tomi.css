@@ -136,7 +136,7 @@ div.footer a:hover {
      div.doubleimagemobile {
         display: flex;
         flex-direction: column; 
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         width: 100vw;
         height: auto;
@@ -205,7 +205,7 @@ and (max-device-width : 480px) {
      div.doubleimagemobile {
         display: flex;
         flex-direction: column; 
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         width: 100vw;
         height: auto;
