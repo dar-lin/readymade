@@ -143,12 +143,12 @@ div.footer a:hover {
     
     div.doubleimagemobile img {
         height: auto; 
-        width: 70vw; 
+        width: 60vw; 
     }
 
     div.textbox {
-        font-size: .75em;
-        width: 30vw; 
+        font-size: .6em;
+        width: 40vw; 
         text-align: justify;
         margin-right: 3%; 
     }
@@ -213,12 +213,12 @@ and (max-device-width : 480px) {
     
     div.doubleimagemobile img {
         height: auto; 
-        width: 70vw; 
+        width: 60vw; 
     }
 
     div.textbox {
-        font-size: .75em;
-        width: 30vw; 
+        font-size: .6em;
+        width: 40vw; 
         text-align: justify;
         margin-right: 3%; 
     }
