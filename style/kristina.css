@@ -140,7 +140,7 @@ and (max-device-width : 480px) {
     }
 
     div.titletextmobile {
-        font-size: 1.5em;
+        font-size: 1em;
         text-align: center;
         margin-top: -25vh; 
         margin-bottom: 5vh; 
@@ -173,6 +173,6 @@ and (max-device-width : 480px) {
     div.interview {
      text-align: center;
      width: 100vw;
-     font-size: 1em; 
+     font-size: .75em; 
  }
 }
