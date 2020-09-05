@@ -1,0 +1,172 @@
+@font-face {
+    font-family: ReadyMadeFinal;
+    src: url(../READYMADEF.otf); 
+}
+
+body {
+    font-family: ReadyMadeFinal;
+    align-items: center;
+}
+
+main.mobile {
+    display: none; 
+}
+
+div.titlebox {
+    background-image: url("../ISSUETWOART/Kristina/kristina6.jpg");
+    height: 85vh; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+    padding: 5vh 2vw 5vh 2vw; 
+ }
+
+ div.titletext {
+    position: absolute; 
+    bottom: 8vh; 
+    left: 50%; 
+    font-size: 2em;
+    text-align: center;
+    transform: translateX(-50%);
+ }
+
+ div.horizontalimage {
+     width: 100vw; 
+     height: auto; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ div.horizontalimage img {
+     width: 80%; 
+     height: auto; 
+ }
+
+ div.interview {
+     text-align: center;
+     width: 100vw;
+ }
+
+ div.text {
+     width: 70vw; 
+ }
+
+
+ div.singleimage {
+     width: 100vw; 
+     height: auto; 
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+     padding-top: 5vh;
+ }
+
+ div.singleimage img {
+     width: 50%; 
+     height: auto; 
+ }
+ div.footer {
+    padding-top: 5vh;
+    text-align: center;
+    margin-bottom: 5vh;
+    font-size: 1.5em;
+}
+
+div.footer a{
+    text-decoration: none;
+    color: black; 
+}
+
+div.footer a:hover {
+    font-style: italic;
+}
+
+
+/** MOBILE **/
+@media only screen and (max-width: 850px) {
+    main.screen {
+        display: none; 
+    }
+
+    main.mobile {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    div.titletextmobile {
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: -25vh; 
+        margin-bottom: 5vh; 
+     }
+
+    div.firstimage {
+        width: 100vw; 
+        height: auto; 
+    }
+
+    div.firstimage img {
+        width: 90%; 
+        height: auto;
+        padding: 0 5% 0 5%; 
+    }
+
+    div.horizontalimage {
+        width: 100vw; 
+        height: auto; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    div.horizontalimage img {
+        width: 90%; 
+        height: auto; 
+    }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) { 
+    main.screen {
+        display: none;
+    }
+
+    main.mobile {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    div.titletextmobile {
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: -25vh; 
+        margin-bottom: 5vh; 
+     }
+
+    div.firstimage {
+        width: 100vw; 
+        height: auto; 
+    }
+
+    div.firstimage img {
+        width: 90%; 
+        height: auto;
+        padding: 0 5% 0 5%; 
+    }
+
+    div.horizontalimage {
+        width: 100vw; 
+        height: auto; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    div.horizontalimage img {
+        width: 90%; 
+        height: auto; 
+    }
+}
