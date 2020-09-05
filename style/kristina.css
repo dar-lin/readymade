@@ -140,7 +140,7 @@ and (max-device-width : 480px) {
     }
 
     div.titletextmobile {
-        font-size: 1em;
+        font-size: 1.25em;
         text-align: center;
         margin-top: -25vh; 
         margin-bottom: 5vh; 
