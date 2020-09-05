@@ -169,4 +169,10 @@ and (max-device-width : 480px) {
         width: 90%; 
         height: auto; 
     }
+    
+    div.interview {
+     text-align: center;
+     width: 100vw;
+     font-size: 1em; 
+ }
 }
