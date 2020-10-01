@@ -22,7 +22,7 @@ div.titlebox {
     position: absolute; 
     bottom: 4vh; 
     left: 50%; 
-    font-size: 1em;
+    font-size: 2em;
     text-align: center;
     transform: translateX(-50%);
  }
