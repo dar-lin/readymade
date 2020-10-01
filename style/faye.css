@@ -13,34 +13,18 @@ main.mobile {
 }
 
 div.titlebox {
-    height: 85vh; 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    height: 95vh; 
     position: relative; 
-    padding: 5vh 2vw 5vh 2vw; 
+    padding: 2.5vh 2vw 2.5vh 2vw; 
  }
 
  div.titletext {
     position: absolute; 
-    bottom: 8vh; 
+    bottom: 4vh; 
     left: 50%; 
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
     transform: translateX(-50%);
- }
-
- div.horizontalimage {
-     width: 100vw; 
-     height: auto; 
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
-
- div.horizontalimage img {
-     width: 80%; 
-     height: auto; 
  }
 
  div.interview {
@@ -48,10 +32,11 @@ div.titlebox {
      width: 100vw;
      display: flex;
      justify-content: center;
+     padding: 5vh 0 5vh 0; 
  }
 
  div.text {
-     width: 70vw; 
+     width: 80vw; 
  }
 
  div.doubleimage {
@@ -89,7 +74,6 @@ div.titleimage img {
      display: flex; 
      justify-content: center;
      align-items: center;
-     padding-top: 5vh;
  }
 
  div.singleimage img {
@@ -109,4 +93,5 @@ div.footer a{
 }
 
 div.footer a:hover {
-    fo
+    font-style: italic; 
+}
