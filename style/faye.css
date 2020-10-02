@@ -105,26 +105,28 @@ div.footer a:hover {
     main.mobile {
         display: flex; 
         flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
     }
 
     div.titletextmobile {
-        font-size: 1.5em;
+        font-size: 1em;
         text-align: center;
-        margin-top: -25vh; 
-        margin-bottom: 5vh; 
+        margin-top: -10vh; 
      }
     
     div.titleimage {
-    width: 90vw; 
-    height: 90vh; 
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+        width: auto; 
+        height: 90vh; 
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        margin-top: 0; 
     }
 
     div.titleimage img {
-    width: auto;  
-    height: 100%; 
+        width: auto;  
+        height: 80%; 
     }
 
     div.doubleimage {
@@ -144,29 +146,29 @@ div.footer a:hover {
     }
     
      div.singleimage {
-     width: 100vw; 
-     height: auto; 
-     display: flex; 
-     justify-content: center;
-     align-items: center;
- }
+        width: 100vw; 
+        height: auto; 
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
 
- div.singleimage img {
-     width: 100%; 
-     height: auto; 
- }
-  div.interview {
-     text-align: center;
-     width: 100vw;
-     display: flex;
-     justify-content: center;
-     padding: 5vh 0 5vh 0; 
- }
+    div.singleimage img {
+        width: 100%; 
+        height: auto; 
+    }  
+    div.interview {
+        text-align: center;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        padding: 5vh 0 5vh 0; 
+    }
 
- div.text {
-     width: 90vw; 
- }
-} 
+    div.text {
+        width: 90vw; 
+    }
+   } 
 
 
 
@@ -180,28 +182,24 @@ and (max-device-width : 480px) {
     main.mobile {
         display: flex; 
         flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
     }
 
        div.titletextmobile {
-        font-size: 1.5em;
+        font-size: 1em;
         text-align: center;
-        margin-top: -25vh; 
-        margin-bottom: 5vh; 
+        margin-top: -10vh; 
      }
     
     div.titleimage {
-    width: 90vw; 
-    height: 90vh; 
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+        width: auto; 
+        height: 90vh; 
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        margin-top: 0; 
     }
-
-    div.titleimage img {
-    width: auto;  
-    height: 100%; 
-    }
-
     div.doubleimage {
         display: flex;
         flex-direction: column;
@@ -219,26 +217,26 @@ and (max-device-width : 480px) {
     }
     
      div.singleimage {
-     width: 100vw; 
-     height: auto; 
-     display: flex; 
-     justify-content: center;
-     align-items: center;
- }
+        width: 100vw; 
+        height: auto; 
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
 
- div.singleimage img {
-     width: 100%; 
-     height: auto; 
- }
+    div.singleimage img {
+        width: 100%; 
+        height: auto; 
+    }
      div.interview {
-     text-align: center;
-     width: 100vw;
-     display: flex;
-     justify-content: center;
-     padding: 5vh 0 5vh 0; 
- }
+        text-align: center;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        padding: 5vh 0 5vh 0; 
+      }
 
- div.text {
-     width: 90vw; 
- }
+     div.text {
+        width: 90vw; 
+     }
 }
