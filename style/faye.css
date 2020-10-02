@@ -141,8 +141,10 @@ div.footer a:hover {
     }
     
     div.doubleimage img {
-        width: 100%; 
-        height: 100%; 
+        width: auto; 
+        height: 95vh;
+        padding: 2.5vh 0 2.5vh 0; 
+        
     }
     
      div.singleimage {
@@ -212,8 +214,9 @@ and (max-device-width : 480px) {
     }
     
     div.doubleimage img {
-        width: 100%; 
-        height: 100%; 
+        width: auto; 
+        height: 95vh;
+        padding: 2.5vh 0 2.5vh 0; 
     }
     
      div.singleimage {
