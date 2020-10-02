@@ -98,6 +98,11 @@ div.footer a:hover {
 
 /** MOBILE **/
 @media only screen and (max-width: 850px) {
+    body {
+        font-family: ReadyMadeFinal;
+        align-items: center;
+    }
+    
     main.screen {
         display: none; 
     }
@@ -116,24 +121,21 @@ div.footer a:hover {
      }
     
     div.titleimage {
-        width: 100vh; 
-        height: 90vh; 
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        margin-top: 0; 
+        width: 100vw; 
+        height: auto; 
     }
 
     div.titleimage img {
-        width: auto;  
-        height: 80%;
-        margin: 0 5vw 0 5vw; 
+        width: 90%; 
+        height: auto;
+        padding: 0 5% 0 5%;  
     }
 
     div.doubleimage {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        flex-wrap: wrap; 
+        justify-content: center;
         align-items: center;
         width: 100vw;
         height: auto;
@@ -142,9 +144,9 @@ div.footer a:hover {
     }
     
     div.doubleimage img {
-        width: auto; 
-        height: 95vh;
-        padding: 2.5vh 0 2.5vh 0; 
+        width: 80%; 
+        height: 80%; 
+        margin: 3vh 0 3vh 0;
         
     }
     
@@ -178,8 +180,13 @@ div.footer a:hover {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) { 
+    body {
+        font-family: ReadyMadeFinal;
+        align-items: center;
+    }
+    
     main.screen {
-        display: none;
+        display: none; 
     }
 
     main.mobile {
@@ -189,31 +196,28 @@ and (max-device-width : 480px) {
         align-items: center; 
     }
 
-       div.titletextmobile {
+    div.titletextmobile {
         font-size: 1em;
         text-align: center;
         margin-top: -10vh; 
      }
     
     div.titleimage {
-        width: 100vh; 
-        height: 90vh; 
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        margin-top: 0; 
+        width: 100vw; 
+        height: auto; 
     }
-    
-     div.titleimage img {
-        width: auto;  
-        height: 80%;
-        margin: 0 5vw 0 5vw; 
+
+    div.titleimage img {
+        width: 90%; 
+        height: auto;
+        padding: 0 5% 0 5%;  
     }
-    
+
     div.doubleimage {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        flex-wrap: wrap; 
+        justify-content: center;
         align-items: center;
         width: 100vw;
         height: auto;
@@ -222,9 +226,10 @@ and (max-device-width : 480px) {
     }
     
     div.doubleimage img {
-        width: auto; 
-        height: 95vh;
-        padding: 2.5vh 0 2.5vh 0; 
+        width: 80%; 
+        height: 80%; 
+        margin: 3vh 0 3vh 0;
+        
     }
     
      div.singleimage {
@@ -238,16 +243,16 @@ and (max-device-width : 480px) {
     div.singleimage img {
         width: 100%; 
         height: auto; 
-    }
-     div.interview {
+    }  
+    div.interview {
         text-align: center;
         width: 100vw;
         display: flex;
         justify-content: center;
         padding: 5vh 0 5vh 0; 
-      }
+    }
 
-     div.text {
+    div.text {
         width: 90vw; 
-     }
+    }
 }
