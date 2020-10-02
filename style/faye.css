@@ -115,7 +115,7 @@ div.footer a:hover {
     }
 
     div.titletextmobile {
-        font-size: 1em;
+        font-size: .5em;
         text-align: center;
         margin-top: -10vh; 
      }
@@ -197,7 +197,7 @@ and (max-device-width : 480px) {
     }
 
     div.titletextmobile {
-        font-size: 1em;
+        font-size: .5em;
         text-align: center;
         margin-top: -10vh; 
      }
