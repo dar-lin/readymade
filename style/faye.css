@@ -139,7 +139,7 @@ div.footer a:hover {
         align-items: center;
         width: 100vw;
         height: auto;
-        margin: 3vh 0 3vh 0; 
+        margin: 1.5vh 0 1.5vh 0; 
         flex: 1 1 ; 
     }
     
@@ -221,7 +221,7 @@ and (max-device-width : 480px) {
         align-items: center;
         width: 100vw;
         height: auto;
-        margin: 3vh 0 3vh 0; 
+        margin: 1.5vh 0 1.5vh 0; 
         flex: 1 1 ; 
     }
     
