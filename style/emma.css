@@ -122,6 +122,20 @@ div.footer a:hover {
         height: 80%; 
         margin: 3vh 0 3vh 0;
     }
+    
+    div.singleimage {
+        width: auto; 
+        height: 60vh; 
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        padding: 1.5vh 0 2.5vh 0; 
+    }
+
+    div.singleimage img {
+        width: auto%; 
+        height: 100%; 
+   }
 }
 
 @media only screen
@@ -168,4 +182,17 @@ and (max-device-width : 480px) {
         height: 80%; 
         margin: 3vh 0 3vh 0;
     }
+    div.singleimage {
+        width: auto; 
+        height: 60vh; 
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        padding: 1.5vh 0 2.5vh 0; 
+    }
+
+    div.singleimage img {
+        width: auto%; 
+        height: 100%; 
+   }
 }
