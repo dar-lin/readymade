@@ -35,15 +35,16 @@ div.doubleimage img {
 
 div.singleimage {
     width: auto; 
-    height: 70vh; 
+    height: 85vh; 
     display: flex; 
     justify-content: center;
     align-items: center;
+    padding: 1.5vh 0 2.5vh 0; 
 }
 
 div.singleimage img {
-    width: 50%; 
-    height: auto; 
+    width: auto%; 
+    height: 100%; 
 }
 
 div.interview {
