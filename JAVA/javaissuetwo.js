@@ -11,7 +11,7 @@ rightLayer.addEventListener("click", function() {
     currentSlide = currentSlide + 1
     z = z + 1
 
-    if (currentSlide > 5) {
+    if (currentSlide > 6) {
         currentSlide = 0
     }
 
@@ -22,7 +22,7 @@ rightLayer.addEventListener("click", function() {
 
 leftLayer.addEventListener("click", function (){
     if (currentSlide < 1){
-      currentSlide = 5
+      currentSlide = 6
     }
     currentSlide = currentSlide - 1
     z = z + 1
