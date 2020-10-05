@@ -22,7 +22,7 @@ rightLayer.addEventListener("click", function() {
 
 leftLayer.addEventListener("click", function (){
     if (currentSlide < 1){
-      currentSlide = 6
+      currentSlide = 7
     }
     currentSlide = currentSlide - 1
     z = z + 1
