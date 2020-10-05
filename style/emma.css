@@ -33,6 +33,19 @@ div.doubleimage img {
     height: 95%; 
 }
 
+div.singleimage {
+    width: auto; 
+    height: 70vh; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+div.singleimage img {
+    width: 50%; 
+    height: auto; 
+}
+
 div.interview {
     font-size: .75em;
     width: 100vw; 
